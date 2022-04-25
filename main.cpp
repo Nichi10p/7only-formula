@@ -71,5 +71,6 @@ int main()
         }
     }
 
+    cout << formula[9][425 + lim] << endl;
     return 0;
 }
