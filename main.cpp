@@ -4,12 +4,12 @@
 #include <set>
 using namespace std;
 
-#define inRange(left, x, right) (left <= x && x < right)
+#define inRange(left, x, right) (left < x && x < right)
 
 int main()
 {
     // メモリが足りなくなりそうなので絶対値が大きい数は探索しない
-    // 探索範囲 [-lim, lim)
+    // 探索範囲 (-lim, lim)
     const int lim = 1000;
     // 式に使う 7 の個数の上限
     const int N = 10;
